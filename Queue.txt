@@ -1,7 +1,3 @@
-50
-60
-6
-0
 Queue is Full!
 Queue is Empty!
 Queue is Empty!
@@ -14,6 +10,7 @@ this.queue != null
 this.queue[] elements >= 0
 this.front >= 0
 this.rear >= -1
+this.count >= 0
 size(this.queue[])-1 != 0
 ===========================================================================
 DataStructures.Queue.Queue(int):::ENTER
@@ -27,18 +24,48 @@ this.count == 0
 DataStructures.Queue.dequeue():::ENTER
 this.rear >= 0
 ===========================================================================
+DataStructures.Queue.dequeue():::EXIT34
+this.front == orig(this.front)
+this.count == orig(this.count)
+this.queue has only one value
+this.queue[] == [1, 0]
+this.queue[] elements one of { 0, 1 }
+this.front == 1
+this.rear == 0
+this.capacity == 2
+this.count == 0
+return == -2147483648
+orig(this) has only one value
+size(this.queue[]) == 2
+===========================================================================
+DataStructures.Queue.dequeue():::EXIT39
+orig(this.count) >= 1
+this.front != orig(this.front)
+this.count - orig(this.count) + 1 == 0
+===========================================================================
 DataStructures.Queue.dequeue():::EXIT
 this.queue == orig(this.queue)
 this.queue[] == orig(this.queue[])
 this.rear == orig(this.rear)
 this.capacity == orig(this.capacity)
+(return == -2147483648)  <==>  (orig(this.count) == 0)
+(return == -2147483648)  <==>  (this.count == orig(this.count))
+(return == -2147483648)  <==>  (this.front == orig(this.front))
+(return == -2147483648)  ==>  (orig(this) has only one value)
+(return == -2147483648)  ==>  (orig(this.front) == 1)
+(return == -2147483648)  ==>  (size(this.queue[]) == 2)
+(return == -2147483648)  ==>  (this.capacity == 2)
+(return == -2147483648)  ==>  (this.count == 0)
+(return == -2147483648)  ==>  (this.front == 1)
+(return == -2147483648)  ==>  (this.queue has only one value)
+(return == -2147483648)  ==>  (this.queue[] == [1, 0])
+(return == -2147483648)  ==>  (this.queue[] elements one of { 0, 1 })
+(return == -2147483648)  ==>  (this.rear == 0)
 this.rear >= 0
-this.front != orig(this.front)
-this.count - orig(this.count) + 1 == 0
+this.count <= orig(this.count)
 ===========================================================================
 DataStructures.Queue.enqueue(int):::ENTER
 this.front one of { 0, 2 }
-this.count >= 0
 ===========================================================================
 DataStructures.Queue.enqueue(int):::EXIT
 this.queue == orig(this.queue)
@@ -49,12 +76,10 @@ this.front one of { 0, 2 }
 this.rear >= 0
 this.count >= 1
 this.queue[] >= orig(this.queue[]) (elementwise)
-this.rear != orig(this.rear)
-this.count - orig(this.count) - 1 == 0
+this.count >= orig(this.count)
 ===========================================================================
 DataStructures.Queue.getLength():::ENTER
 this.front one of { 0, 2 }
-this.count >= 0
 ===========================================================================
 DataStructures.Queue.getLength():::EXIT
 this.queue == orig(this.queue)
@@ -64,11 +89,8 @@ this.rear == orig(this.rear)
 this.capacity == orig(this.capacity)
 this.count == orig(this.count)
 this.front one of { 0, 2 }
-this.count >= 0
-return >= 0
 ===========================================================================
 DataStructures.Queue.isEmpty():::ENTER
-this.count >= 0
 ===========================================================================
 DataStructures.Queue.isEmpty():::EXIT
 this.queue == orig(this.queue)
@@ -80,7 +102,6 @@ this.count == orig(this.count)
 (this.count == 0)  <==>  (return == true)
 (this.count == 0)  ==>  (this.front one of { 0, 1 })
 (this.count == 0)  ==>  (this.rear >= -1)
-this.count >= 0
 ===========================================================================
 DataStructures.Queue.isEmpty():::EXIT;condition="return == true"
 this.front one of { 0, 1 }
@@ -94,7 +115,6 @@ return == false
 ===========================================================================
 DataStructures.Queue.isFull():::ENTER
 this.front one of { 0, 2 }
-this.count >= 0
 ===========================================================================
 DataStructures.Queue.isFull():::EXIT
 this.queue == orig(this.queue)
@@ -113,7 +133,6 @@ this.count == orig(this.count)
 (return == true)  ==>  (this.queue[] one of { [1, 2], [2, 4, 6] })
 (return == true)  ==>  (this.rear one of { 1, 2 })
 this.front one of { 0, 2 }
-this.count >= 0
 ===========================================================================
 DataStructures.Queue.isFull():::EXIT;condition="return == true"
 this.queue[] one of { [1, 2], [2, 4, 6] }
@@ -135,6 +154,28 @@ this.capacity one of { 2, 5 }
 this.count one of { 0, 1, 4 }
 size(this.queue[]) one of { 2, 5 }
 ===========================================================================
+DataStructures.Queue.peek():::EXIT57
+this.queue has only one value
+this.queue[] == [0, 0]
+this.queue[] elements == 0
+this.front == 0
+this.rear == -1
+this.capacity == 2
+this.count == 0
+return == -2147483648
+orig(this) has only one value
+size(this.queue[]) == 2
+===========================================================================
+DataStructures.Queue.peek():::EXIT59
+this.queue has only one value
+this.queue[] == [60, 20, 30, 40, 50]
+this.rear == 0
+this.capacity == 5
+this.count one of { 1, 4 }
+return one of { 30, 60 }
+orig(this) has only one value
+size(this.queue[]) == 5
+===========================================================================
 DataStructures.Queue.peek():::EXIT
 this.queue == orig(this.queue)
 this.queue[] == orig(this.queue[])
@@ -142,12 +183,25 @@ this.front == orig(this.front)
 this.rear == orig(this.rear)
 this.capacity == orig(this.capacity)
 this.count == orig(this.count)
+(this.queue[] == [0, 0])  <==>  (return == -2147483648)
+(this.queue[] == [0, 0])  <==>  (size(this.queue[]) == 2)
+(this.queue[] == [0, 0])  <==>  (this.capacity == 2)
+(this.queue[] == [0, 0])  <==>  (this.count == 0)
+(this.queue[] == [0, 0])  <==>  (this.queue[] elements == 0)
+(this.queue[] == [0, 0])  <==>  (this.rear == -1)
+(this.queue[] == [0, 0])  ==>  (this.front == 0)
+(this.queue[] == [60, 20, 30, 40, 50])  <==>  (return one of { 30, 60 })
+(this.queue[] == [60, 20, 30, 40, 50])  <==>  (size(this.queue[]) == 5)
+(this.queue[] == [60, 20, 30, 40, 50])  <==>  (this.capacity == 5)
+(this.queue[] == [60, 20, 30, 40, 50])  <==>  (this.count one of { 1, 4 })
+(this.queue[] == [60, 20, 30, 40, 50])  <==>  (this.rear == 0)
+(this.queue[] == [60, 20, 30, 40, 50])  ==>  (this.front one of { 0, 2 })
 this.queue[] one of { [0, 0], [60, 20, 30, 40, 50] }
 this.front one of { 0, 2 }
 this.rear one of { -1, 0 }
 this.capacity one of { 2, 5 }
 this.count one of { 0, 1, 4 }
-return one of { 0, 30, 60 }
+return one of { -2147483648, 30, 60 }
 size(this.queue[]) one of { 2, 5 }
 ===========================================================================
 DataStructures.QueueTest:::CLASS

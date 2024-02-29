@@ -21,8 +21,7 @@ public class QueueTest {
         int x3 = q1.dequeue();
         int x4 = q1.dequeue();
         int x5 = q1.dequeue();
-        System.out.println(x5);
-        System.out.println(q1.peek());
+   
         assert(x5 == 50);
         assert(q1.peek()==60);
     }
@@ -35,7 +34,6 @@ public class QueueTest {
         q2.enqueue(4);
         q2.enqueue(5);
         q2.enqueue(6);
-        System.out.println(q2.getLength());
         assert(q2.getLength()==6);
      
         int x1 = q2.dequeue();
@@ -44,7 +42,8 @@ public class QueueTest {
         int x4 = q2.dequeue();
         int x5 = q2.dequeue();
         int x6 = q2.dequeue();
-        System.out.println(q2.getLength());
+        assert(x1==1);
+        assert(x6==6);
         assert(q2.getLength()==0);
 
     }
@@ -73,19 +72,19 @@ public class QueueTest {
         Queue q = new Queue(2);
         q.enqueue(1);
         q.enqueue(2);
-        q.enqueue(3); // Should print "Queue is full!"
+        q.enqueue(3); 
     }
     
     public static void testQueue6() {
         Queue q = new Queue(2);
         q.enqueue(1);
         q.dequeue();
-        q.dequeue(); // Should print "Queue is empty!"
+        q.dequeue(); 
     }
     
      public static void testQueue7() {
         Queue q = new Queue(2);
-        q.peek(); // Should print "Queue is empty!"
+        q.peek(); 
     }
     
       public static void testQueue8() {
@@ -123,4 +122,5 @@ public class QueueTest {
   
     }
 }
+
 

@@ -1,5 +1,5 @@
 // Declarations for DataStructures.QueueTest
-// Declarations written 2024-02-28T22:08:58.101 by daikon.DynComp
+// Declarations written 2024-02-29T00:22:52.331 by daikon.DynComp
 
 decl-version 2.0
 var-comparability implicit
@@ -55,7 +55,7 @@ variable DataStructures.QueueTest.$assertionsDisabled
   flags nomod
   comparability 2
 
-ppt DataStructures.QueueTest.testQueue1():::EXIT28
+ppt DataStructures.QueueTest.testQueue1():::EXIT27
 ppt-type subexit
 variable DataStructures.QueueTest.$assertionsDisabled
   var-kind variable
@@ -73,7 +73,7 @@ variable DataStructures.QueueTest.$assertionsDisabled
   flags nomod
   comparability 2
 
-ppt DataStructures.QueueTest.testQueue2():::EXIT50
+ppt DataStructures.QueueTest.testQueue2():::EXIT49
 ppt-type subexit
 variable DataStructures.QueueTest.$assertionsDisabled
   var-kind variable
@@ -91,7 +91,7 @@ variable DataStructures.QueueTest.$assertionsDisabled
   flags nomod
   comparability 2
 
-ppt DataStructures.QueueTest.testQueue3():::EXIT64
+ppt DataStructures.QueueTest.testQueue3():::EXIT63
 ppt-type subexit
 variable DataStructures.QueueTest.$assertionsDisabled
   var-kind variable
@@ -109,7 +109,7 @@ variable DataStructures.QueueTest.$assertionsDisabled
   flags nomod
   comparability 2
 
-ppt DataStructures.QueueTest.testQueue4():::EXIT70
+ppt DataStructures.QueueTest.testQueue4():::EXIT69
 ppt-type subexit
 variable DataStructures.QueueTest.$assertionsDisabled
   var-kind variable
@@ -127,7 +127,7 @@ variable DataStructures.QueueTest.$assertionsDisabled
   flags nomod
   comparability 2
 
-ppt DataStructures.QueueTest.testQueue5():::EXIT77
+ppt DataStructures.QueueTest.testQueue5():::EXIT76
 ppt-type subexit
 variable DataStructures.QueueTest.$assertionsDisabled
   var-kind variable
@@ -145,7 +145,7 @@ variable DataStructures.QueueTest.$assertionsDisabled
   flags nomod
   comparability 2
 
-ppt DataStructures.QueueTest.testQueue6():::EXIT84
+ppt DataStructures.QueueTest.testQueue6():::EXIT83
 ppt-type subexit
 variable DataStructures.QueueTest.$assertionsDisabled
   var-kind variable
@@ -163,7 +163,7 @@ variable DataStructures.QueueTest.$assertionsDisabled
   flags nomod
   comparability 2
 
-ppt DataStructures.QueueTest.testQueue7():::EXIT89
+ppt DataStructures.QueueTest.testQueue7():::EXIT88
 ppt-type subexit
 variable DataStructures.QueueTest.$assertionsDisabled
   var-kind variable
@@ -181,7 +181,7 @@ variable DataStructures.QueueTest.$assertionsDisabled
   flags nomod
   comparability 2
 
-ppt DataStructures.QueueTest.testQueue8():::EXIT95
+ppt DataStructures.QueueTest.testQueue8():::EXIT94
 ppt-type subexit
 variable DataStructures.QueueTest.$assertionsDisabled
   var-kind variable
@@ -199,7 +199,7 @@ variable DataStructures.QueueTest.$assertionsDisabled
   flags nomod
   comparability 2
 
-ppt DataStructures.QueueTest.testQueue9():::EXIT109
+ppt DataStructures.QueueTest.testQueue9():::EXIT108
 ppt-type subexit
 variable DataStructures.QueueTest.$assertionsDisabled
   var-kind variable
@@ -244,7 +244,7 @@ variable args[..].toString
   flags synthetic to_string
   comparability 5[7]
 
-ppt DataStructures.QueueTest.main(java.lang.String[]):::EXIT124
+ppt DataStructures.QueueTest.main(java.lang.String[]):::EXIT123
 ppt-type subexit
 variable DataStructures.QueueTest.$assertionsDisabled
   var-kind variable
@@ -546,7 +546,7 @@ variable item
   flags is_param
   comparability 2
 
-ppt DataStructures.Queue.enqueue(int):::EXIT27
+ppt DataStructures.Queue.enqueue(int):::EXIT28
 ppt-type subexit
 variable this
   var-kind variable
@@ -632,7 +632,52 @@ variable this.count
   rep-type int
   comparability 3
 
-ppt DataStructures.Queue.dequeue():::EXIT37
+ppt DataStructures.Queue.dequeue():::EXIT34
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 3
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 2[2]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 2
+variable return
+  var-kind return
+  dec-type int
+  rep-type int
+  comparability 2
+
+ppt DataStructures.Queue.dequeue():::EXIT39
 ppt-type subexit
 variable this
   var-kind variable
@@ -717,7 +762,7 @@ variable this.count
   rep-type int
   comparability 3
 
-ppt DataStructures.Queue.isEmpty():::EXIT42
+ppt DataStructures.Queue.isEmpty():::EXIT45
 ppt-type subexit
 variable this
   var-kind variable
@@ -802,7 +847,7 @@ variable this.count
   rep-type int
   comparability 3
 
-ppt DataStructures.Queue.isFull():::EXIT47
+ppt DataStructures.Queue.isFull():::EXIT50
 ppt-type subexit
 variable this
   var-kind variable
@@ -887,7 +932,52 @@ variable this.count
   rep-type int
   comparability 3
 
-ppt DataStructures.Queue.peek():::EXIT55
+ppt DataStructures.Queue.peek():::EXIT57
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 3
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 2[2]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 2
+variable return
+  var-kind return
+  dec-type int
+  rep-type int
+  comparability 2
+
+ppt DataStructures.Queue.peek():::EXIT59
 ppt-type subexit
 variable this
   var-kind variable
@@ -972,7 +1062,7 @@ variable this.count
   rep-type int
   comparability 3
 
-ppt DataStructures.Queue.getLength():::EXIT60
+ppt DataStructures.Queue.getLength():::EXIT65
 ppt-type subexit
 variable this
   var-kind variable

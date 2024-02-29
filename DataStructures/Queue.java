@@ -20,21 +20,24 @@ public class Queue {
     public void enqueue(int item) {
         if (isFull()) {
             System.out.println("Queue is Full!");
-        }
+        }else{
         rear = (rear + 1) % capacity;
         queue[rear] = item;
         count++;
-    }
+       }    
+     }
 
     // remove the front element from the queue
     public int dequeue() {
         if (isEmpty()) {
             System.out.println("Queue is Empty!");
-        }
+            return Integer.MIN_VALUE;
+        }else{
         int item = queue[front];
         front = (front + 1) % capacity;
         count--;
         return item;
+        }
     }
 
     // check if the queue is empty
@@ -51,8 +54,10 @@ public class Queue {
     public int peek() {
         if (isEmpty()) {
             System.out.println("Queue is Empty!");
-        }
-        return queue[front];
+            return Integer.MIN_VALUE;
+        }else{
+           return queue[front];
+      }
     }
 
     // get the lenght of the queue
@@ -60,5 +65,6 @@ public class Queue {
         return count;
     }
 }
+
 
 
