@@ -1,0 +1,1241 @@
+// Declarations for DataStructures.QueueTest
+// Declarations written 2024-02-28T22:08:58.101 by daikon.DynComp
+
+decl-version 2.0
+var-comparability implicit
+
+ppt DataStructures.QueueTest:::CLASS
+ppt-type class
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest:::OBJECT
+ppt-type object
+variable this
+  var-kind variable
+  dec-type DataStructures.QueueTest
+  rep-type hashcode
+  flags is_param non_null
+  comparability 3
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.QueueTest():::ENTER
+ppt-type enter
+
+ppt DataStructures.QueueTest.QueueTest():::EXIT3
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.QueueTest
+  rep-type hashcode
+  flags is_param non_null
+  comparability 3
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue1():::ENTER
+ppt-type enter
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue1():::EXIT28
+ppt-type subexit
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue2():::ENTER
+ppt-type enter
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue2():::EXIT50
+ppt-type subexit
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue3():::ENTER
+ppt-type enter
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue3():::EXIT64
+ppt-type subexit
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue4():::ENTER
+ppt-type enter
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue4():::EXIT70
+ppt-type subexit
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue5():::ENTER
+ppt-type enter
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue5():::EXIT77
+ppt-type subexit
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue6():::ENTER
+ppt-type enter
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue6():::EXIT84
+ppt-type subexit
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue7():::ENTER
+ppt-type enter
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue7():::EXIT89
+ppt-type subexit
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue8():::ENTER
+ppt-type enter
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue8():::EXIT95
+ppt-type subexit
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue9():::ENTER
+ppt-type enter
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.testQueue9():::EXIT109
+ppt-type subexit
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+
+ppt DataStructures.QueueTest.main(java.lang.String[]):::ENTER
+ppt-type enter
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+variable args
+  var-kind variable
+  dec-type java.lang.String[]
+  rep-type hashcode
+  flags is_param
+  comparability 3
+variable args.getClass().getName()
+  var-kind function getClass().getName()
+  dec-type java.lang.Class
+  rep-type java.lang.String
+  function-args args
+  flags synthetic classname non_null
+  comparability 1
+variable args[..]
+  var-kind array
+  array 1
+  dec-type java.lang.String[]
+  rep-type hashcode[]
+  comparability 4[6]
+variable args[..].toString
+  var-kind function toString()
+  array 1
+  dec-type java.lang.String[]
+  rep-type java.lang.String[]
+  function-args args[]
+  flags synthetic to_string
+  comparability 5[7]
+
+ppt DataStructures.QueueTest.main(java.lang.String[]):::EXIT124
+ppt-type subexit
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+variable args
+  var-kind variable
+  dec-type java.lang.String[]
+  rep-type hashcode
+  flags is_param
+  comparability 3
+variable args.getClass().getName()
+  var-kind function getClass().getName()
+  dec-type java.lang.Class
+  rep-type java.lang.String
+  function-args args
+  flags synthetic classname non_null
+  comparability 1
+variable args[..]
+  var-kind array
+  array 1
+  dec-type java.lang.String[]
+  rep-type hashcode[]
+  comparability 4[6]
+variable args[..].toString
+  var-kind function toString()
+  array 1
+  dec-type java.lang.String[]
+  rep-type java.lang.String[]
+  function-args args[]
+  flags synthetic to_string
+  comparability 5[7]
+
+ppt DataStructures.QueueTest.equals(java.lang.Object):::ENTER
+ppt-type enter
+variable this
+  var-kind variable
+  dec-type DataStructures.QueueTest
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+variable obj
+  var-kind variable
+  dec-type java.lang.Object
+  rep-type hashcode
+  flags is_param
+  comparability 3
+variable obj.getClass().getName()
+  var-kind function getClass().getName()
+  dec-type java.lang.Class
+  rep-type java.lang.String
+  function-args obj
+  flags synthetic classname non_null
+  comparability 1
+
+ppt DataStructures.QueueTest.equals(java.lang.Object):::EXIT1
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.QueueTest
+  rep-type hashcode
+  flags is_param non_null
+  comparability 5
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+variable obj
+  var-kind variable
+  dec-type java.lang.Object
+  rep-type hashcode
+  flags is_param
+  comparability 3
+variable obj.getClass().getName()
+  var-kind function getClass().getName()
+  dec-type java.lang.Class
+  rep-type java.lang.String
+  function-args obj
+  flags synthetic classname non_null
+  comparability 1
+variable return
+  var-kind return
+  dec-type boolean
+  rep-type boolean
+  comparability 4
+
+ppt DataStructures.QueueTest.equals_dcomp_instrumented(java.lang.Object):::ENTER
+ppt-type enter
+variable this
+  var-kind variable
+  dec-type DataStructures.QueueTest
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+variable obj
+  var-kind variable
+  dec-type java.lang.Object
+  rep-type hashcode
+  flags is_param
+  comparability 3
+variable obj.getClass().getName()
+  var-kind function getClass().getName()
+  dec-type java.lang.Class
+  rep-type java.lang.String
+  function-args obj
+  flags synthetic classname non_null
+  comparability 1
+
+ppt DataStructures.QueueTest.equals_dcomp_instrumented(java.lang.Object):::EXIT1
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.QueueTest
+  rep-type hashcode
+  flags is_param non_null
+  comparability 5
+variable DataStructures.QueueTest.$assertionsDisabled
+  var-kind variable
+  dec-type boolean
+  rep-type boolean
+  flags nomod
+  comparability 2
+variable obj
+  var-kind variable
+  dec-type java.lang.Object
+  rep-type hashcode
+  flags is_param
+  comparability 3
+variable obj.getClass().getName()
+  var-kind function getClass().getName()
+  dec-type java.lang.Class
+  rep-type java.lang.String
+  function-args obj
+  flags synthetic classname non_null
+  comparability 1
+variable return
+  var-kind return
+  dec-type boolean
+  rep-type boolean
+  comparability 4
+
+ppt DataStructures.Queue:::CLASS
+ppt-type class
+
+ppt DataStructures.Queue:::OBJECT
+ppt-type object
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 2
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 4
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 3[3]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 3
+
+ppt DataStructures.Queue.Queue(int):::ENTER
+ppt-type enter
+variable maxSize
+  var-kind variable
+  dec-type int
+  rep-type int
+  flags is_param
+  comparability 2
+
+ppt DataStructures.Queue.Queue(int):::EXIT17
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 3
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 2[2]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 2
+variable maxSize
+  var-kind variable
+  dec-type int
+  rep-type int
+  flags is_param
+  comparability 2
+
+ppt DataStructures.Queue.enqueue(int):::ENTER
+ppt-type enter
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 3
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 2[2]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 2
+variable item
+  var-kind variable
+  dec-type int
+  rep-type int
+  flags is_param
+  comparability 2
+
+ppt DataStructures.Queue.enqueue(int):::EXIT27
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 3
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 2[2]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 2
+variable item
+  var-kind variable
+  dec-type int
+  rep-type int
+  flags is_param
+  comparability 2
+
+ppt DataStructures.Queue.dequeue():::ENTER
+ppt-type enter
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 2
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 4
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 3[3]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 3
+
+ppt DataStructures.Queue.dequeue():::EXIT37
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 3
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 2[2]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 2
+variable return
+  var-kind return
+  dec-type int
+  rep-type int
+  comparability 2
+
+ppt DataStructures.Queue.isEmpty():::ENTER
+ppt-type enter
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 2
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 4
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 3[3]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 3
+
+ppt DataStructures.Queue.isEmpty():::EXIT42
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 3
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 5
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 4[4]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 4
+variable return
+  var-kind return
+  dec-type boolean
+  rep-type boolean
+  comparability 2
+
+ppt DataStructures.Queue.isFull():::ENTER
+ppt-type enter
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 2
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 4
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 3[3]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 3
+
+ppt DataStructures.Queue.isFull():::EXIT47
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 3
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 5
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 4[4]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 4
+variable return
+  var-kind return
+  dec-type boolean
+  rep-type boolean
+  comparability 2
+
+ppt DataStructures.Queue.peek():::ENTER
+ppt-type enter
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 2
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 4
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 3[3]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 3
+
+ppt DataStructures.Queue.peek():::EXIT55
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 3
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 2[2]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 2
+variable return
+  var-kind return
+  dec-type int
+  rep-type int
+  comparability 2
+
+ppt DataStructures.Queue.getLength():::ENTER
+ppt-type enter
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 2
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 4
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 3[3]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 3
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 3
+
+ppt DataStructures.Queue.getLength():::EXIT60
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 3
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 2[2]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 2
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 2
+variable return
+  var-kind return
+  dec-type int
+  rep-type int
+  comparability 2
+
+ppt DataStructures.Queue.equals(java.lang.Object):::ENTER
+ppt-type enter
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 3
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 5
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 4[4]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 4
+variable obj
+  var-kind variable
+  dec-type java.lang.Object
+  rep-type hashcode
+  flags is_param
+  comparability 2
+variable obj.getClass().getName()
+  var-kind function getClass().getName()
+  dec-type java.lang.Class
+  rep-type java.lang.String
+  function-args obj
+  flags synthetic classname non_null
+  comparability 1
+
+ppt DataStructures.Queue.equals(java.lang.Object):::EXIT1
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 6
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 5[5]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 5
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 5
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 5
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 5
+variable obj
+  var-kind variable
+  dec-type java.lang.Object
+  rep-type hashcode
+  flags is_param
+  comparability 2
+variable obj.getClass().getName()
+  var-kind function getClass().getName()
+  dec-type java.lang.Class
+  rep-type java.lang.String
+  function-args obj
+  flags synthetic classname non_null
+  comparability 1
+variable return
+  var-kind return
+  dec-type boolean
+  rep-type boolean
+  comparability 3
+
+ppt DataStructures.Queue.equals_dcomp_instrumented(java.lang.Object):::ENTER
+ppt-type enter
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 3
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 5
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 4[4]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 4
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 4
+variable obj
+  var-kind variable
+  dec-type java.lang.Object
+  rep-type hashcode
+  flags is_param
+  comparability 2
+variable obj.getClass().getName()
+  var-kind function getClass().getName()
+  dec-type java.lang.Class
+  rep-type java.lang.String
+  function-args obj
+  flags synthetic classname non_null
+  comparability 1
+
+ppt DataStructures.Queue.equals_dcomp_instrumented(java.lang.Object):::EXIT1
+ppt-type subexit
+variable this
+  var-kind variable
+  dec-type DataStructures.Queue
+  rep-type hashcode
+  flags is_param non_null
+  comparability 4
+variable this.queue
+  var-kind field queue
+  dec-type int[]
+  rep-type hashcode
+  comparability 6
+variable this.queue[..]
+  var-kind array
+  array 1
+  dec-type int[]
+  rep-type int[]
+  comparability 5[5]
+variable this.front
+  var-kind field front
+  dec-type int
+  rep-type int
+  comparability 5
+variable this.rear
+  var-kind field rear
+  dec-type int
+  rep-type int
+  comparability 5
+variable this.capacity
+  var-kind field capacity
+  dec-type int
+  rep-type int
+  comparability 5
+variable this.count
+  var-kind field count
+  dec-type int
+  rep-type int
+  comparability 5
+variable obj
+  var-kind variable
+  dec-type java.lang.Object
+  rep-type hashcode
+  flags is_param
+  comparability 2
+variable obj.getClass().getName()
+  var-kind function getClass().getName()
+  dec-type java.lang.Class
+  rep-type java.lang.String
+  function-args obj
+  flags synthetic classname non_null
+  comparability 1
+variable return
+  var-kind return
+  dec-type boolean
+  rep-type boolean
+  comparability 3
+
